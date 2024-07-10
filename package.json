@@ -1,17 +1,20 @@
 {
-	"type": "module",
+	"name": "imoje",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"homepage": "https://Sylwek185-dev.github.io/imoje",
+	"scripts": {
+		"start": "node proxy.js",
+		"build": "echo 'Build step running...'",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d public"
+	},
 	"dependencies": {
 		"express": "^4.19.2",
 		"node-fetch": "^3.3.2"
 	},
-	"homepage": "https://Sylwek185-dev.github.io/imoje/",
-	"scripts": {
-		"start": "node proxy.js",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
-		"vercel-build": "echo 'Building...' && npm install"
-	},
 	"devDependencies": {
-		"gh-pages": "^6.1.1"
+		"gh-pages": "^3.2.3"
 	}
 }
