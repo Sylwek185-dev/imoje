@@ -47,7 +47,7 @@ document
 		console.log('Dane są poprawne.');
 
 		// Kontynuacja z przetwarzaniem formularza
-		const apiEndpoint = 'https://imoje.vercel.app/proxy/payment';
+		const apiEndpoint = '/proxy/payment';
 		const headers = new Headers({
 			'Content-Type': 'application/json',
 		});
