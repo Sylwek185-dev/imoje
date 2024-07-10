@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
-	"homepage": "https://Sylwek185-dev.github.io/imoje",
+	"homepage": "https://sylwek185-dev.github.io/imoje/",
 	"scripts": {
 		"start": "node proxy.js",
 		"build": "echo 'Build step running...'",
