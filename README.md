@@ -1,4 +1,4 @@
-https://sylwek185-dev.github.io/imoje/
+https://imoje.vercel.app/
 
 # iMoje Payment Application
 
