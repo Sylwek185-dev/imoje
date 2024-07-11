@@ -13,7 +13,6 @@ iMoje Payment Application to aplikacja, która umożliwia realizację płatnośc
 - JavaScript
 - Node.js
 - Express
-- GitHub Pages
 - Vercel
 
 ## Funkcjonalności
