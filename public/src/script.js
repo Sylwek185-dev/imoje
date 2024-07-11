@@ -3,7 +3,9 @@ document
 	.addEventListener('submit', function (event) {
 		event.preventDefault();
 
-		const amount = parseInt(document.getElementById('amount').value, 10);
+		const amount = parseFloat(
+			document.getElementById('amount').value.replace(',', '.')
+		);
 		const firstName = document.getElementById('firstName').value.trim();
 		const lastName = document.getElementById('lastName').value.trim();
 		const email = document.getElementById('email').value.trim();
@@ -53,7 +55,7 @@ document
 		});
 
 		const body = JSON.stringify({
-			amount: amount * 100,
+			amount: Math.round(amount * 100),
 			currency: 'PLN',
 			serviceId: 'cd1c032d-2315-49a7-84cd-57eef2fe7938',
 			orderId: '12',
